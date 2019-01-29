@@ -31,14 +31,6 @@ def CashRegister
       return "No discount to apply"
     end 
   end 
-    
-  
-      
-      
-      
-      
-  end 
-  
   
   def void_last_transaction
     @total = @total
