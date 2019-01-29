@@ -1,4 +1,4 @@
-def CashRegister 
+class CashRegister 
   
   attr_accessor :total, :discount, :item, :price, :last_transaction
   
