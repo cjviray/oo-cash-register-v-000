@@ -24,6 +24,7 @@ def CashRegister
   
 
   def apply_discount
+    if discount 
   end 
   
   
