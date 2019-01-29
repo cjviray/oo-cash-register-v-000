@@ -19,7 +19,7 @@ def CashRegister
     quantity.times do 
     @items << item
   end 
-    @last_transaction += price * quantity
+    @last_transaction = price * quantity
   end 
   
 
