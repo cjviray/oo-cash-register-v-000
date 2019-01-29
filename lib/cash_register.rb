@@ -24,7 +24,11 @@ def CashRegister
   
 
   def apply_discount
-    if discount 
+    if @discount != 0
+      
+      
+      
+      
   end 
   
   
@@ -32,6 +36,5 @@ def CashRegister
     @total = @total
   end 
   
-  
-end 
+end
 
