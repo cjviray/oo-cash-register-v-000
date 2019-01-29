@@ -26,9 +26,11 @@ def CashRegister
   def apply_discount
     if @discount == 0
      
+     
    else 
       return "No discount to apply"
     end 
+  end 
     
   
       
