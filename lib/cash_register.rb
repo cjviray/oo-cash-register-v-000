@@ -33,7 +33,7 @@ def CashRegister
   end 
   
   def void_last_transaction
-    @total = @total
+    @total = @total - @last_transaction
   end 
   
 end
