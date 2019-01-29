@@ -1,6 +1,6 @@
 def CashRegister 
   
-  attr_accessor :total, :discount, :item, :price
+  attr_accessor :total, :discount, :item, :price, :last_transaction
   
   @@cash_register = 0 
   
@@ -19,6 +19,7 @@ def CashRegister
     quantity.times do 
     @items << item
   end 
+    
   
 
   def apply_discount
